@@ -64,7 +64,7 @@ const HeroSlider = ({ sliderImages }: { sliderImages: any[] }) => {
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
                 <span className="block transition-all duration-500">
-                  {sliderImages[currentSlide].title_slider}
+                  {sliderImages[currentSlide].title}
                 </span>
                 <span className="block text-[#df412d] transition-all duration-500">
                   {sliderImages[currentSlide].title_slider_sub}
