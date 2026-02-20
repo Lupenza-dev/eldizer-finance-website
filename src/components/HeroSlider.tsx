@@ -62,7 +62,7 @@ const HeroSlider = ({ sliderImages }: { sliderImages: any[] }) => {
         <div className="grid md:grid-cols-2 gap-12 items-center min-h-[500px]">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+              <h1 className="text-3xl md:text-3xl font-bold leading-tight">
                 <span className="block transition-all duration-500">
                   {sliderImages[currentSlide].title}
                 </span>
